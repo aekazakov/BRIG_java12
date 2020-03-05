@@ -2,7 +2,7 @@
 
 Recompiled BRIG jar compatible with Java SE version 12
 
-This repository contains an updated jar file for BRIG (BLAST Ring Image Generator), since original version of the program has not been updated for several years, and may not run on modern Java versions.
+This repository contains an updated jar file for BRIG ([BLAST Ring Image Generator](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3163573/)), since original version of the program has not been updated for several years, and may not run on modern Java versions.
 
 
 ## Do I need this?
@@ -17,7 +17,7 @@ Original implementation of BlastComparator class was changed to conform [Java co
 
 In addition, type casting was added to some lists.
 
-There is no guarantee that the updated version will produce absolutely the same output as the original version. 
+There is no guarantee that the updated version will produce absolutely the same output as the original BRIG version. 
 
 
 
@@ -26,5 +26,6 @@ There is no guarantee that the updated version will produce absolutely the same 
 
 Start original version of BRIG with additional parameter:
 
-> java -Djava.util.Arrays.useLegacyMergeSort=true -jar BRIG.jar
-
+```
+java -Djava.util.Arrays.useLegacyMergeSort=true -jar BRIG.jar
+```
